@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animejs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="demo-content css-selector-demo">
+        <div class="line">
+          <div class="square shadow"></div>
+          <div class="square el" style="transform: translateX(250px);"></div>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"></script>
+<script>
+          anime({
+        targets: '.css-selector-demo .el',
+        translateX: 250
+      });
+
+</script>
+</body>
+</html>

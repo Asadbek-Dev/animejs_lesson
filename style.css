@@ -1,0 +1,22 @@
+.demo-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 290px;
+    height: 100%;
+}
+.line {
+    width: 100%;
+    padding: 1px 0px;
+}
+.shadow {
+    position: absolute;
+    opacity: .2;
+}
+.square{
+    width: 28px;
+    height: 28px;
+    background-color:#FF4B4B;
+}
