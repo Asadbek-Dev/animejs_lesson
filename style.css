@@ -1,38 +1,11 @@
-.demo-content {
+.box{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 290px;
-    height: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    display: inline-block;
 }
-.line {
-    width: 100%;
-    padding: 1px 0px;
-}
-.shadow {
-    position: absolute;
-    opacity: .2;
-}
-.square{
-    width: 28px;
-    height: 28px;
-    background-color:#FF4B4B;
-}
-.element{
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    background-color: aqua;
-    animation-name: example;
-    animation-duration: 4s;
-}
-@keyframes example{
-    0%{
-        left: 0px;
-    }
-    100%{
-        left: 100px;
-    }
-}
+.red{background-color: red;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.yellow{background-color: yellow;}
