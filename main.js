@@ -1,4 +1,7 @@
 anime({
-    targets: '.css-selector-demo .el',
-    translateX: 250
+    targets: 'div.box.red',
+    translateY: [
+      { value:200, duration:500 },
+      { value:0, duration:800 }
+    ],
   });
