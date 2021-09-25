@@ -20,3 +20,19 @@
     height: 28px;
     background-color:#FF4B4B;
 }
+.element{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: aqua;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 100px;
+    }
+}
